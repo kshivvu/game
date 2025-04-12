@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-color: #333;
+    color: whitesmoke;
+    
+    padding: 50px;
+    font-size: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+    border: 10px solid red;
+    border-radius: 50px;
+    margin-top: 0;
+    width: 80vw;
+}
+#choice{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#choice button{
+    background-color: #333;
+    box-sizing: border-box;
+    padding: 100px;
+    font-size: 100px;
+    border-radius: 165px
+}
+
+#score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+#restart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#restart button{
+    
+    font-size: 3rem;
+    
+}
